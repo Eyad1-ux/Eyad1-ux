@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al-Beblawy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #0a2647, #f4f4f9);
+            color: #333;
+        }
+        header {
+            background-color: #0a2647;
+            color: #fff;
+            padding: 20px;
+            font-size: 24px;
+            text-align: center;
+        }
+        h1, h2 {
+            color: #0a2647;
+        }
+        section {
+            margin: 20px auto;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            text-align: center;
+        }
+        video {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+            display: block;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #0a2647;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- الشعار والترحيب -->
+    <header>
+        <h1>Al-Beblawy</h1>
+    </header>
+
+    <!-- الرسالة الترحيبية -->
+    <section>
+        <h2>مع الببلاوي على التفوق ناوي</h2>
+        <p>مرحبا بكم في موقع Al-Beblawy للتفوق والدعم الأكاديمي.</p>
+    </section>
+
+    <!-- قسم امتحانات MCQ -->
+    <section>
+        <h2>امتحانات (MCQ)</h2>
+        <p>هنا تجد امتحانات تفاعلية بنظام MCQ تساعدك على التدرب والاستعداد.</p>
+    </section>
+
+    <!-- قسم الفيديوهات -->
+    <section>
+        <h2>فيديوهات تعليمية</h2>
+        <p>شاهد الفيديوهات التعليمية التي تساعدك على تحقيق التفوق.</p>
+        <video controls>
+            <source src="video-sample.mp4" type="video/mp4">
+            متصفحك لا يدعم تشغيل الفيديو.
+        </video>
+    </section>
+
+    <!-- الفوتر -->
+    <footer>
+        <p>&copy; 2024 Al-Beblawy - كل الحقوق محفوظة</p>
+        <p>تواصل معنا: 01550532659</p>
+    </footer>
+</eyad>
+</html>
